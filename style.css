@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/origami-boat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width:400px;
+    height:440px;
+    background:transparent;
+    border: 5px solid #686149b7;
+    border-radius: 20px;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .form-box{
+    width:100%;
+    padding:40px;
+}
+.form-box h2{
+    font-size: 40px;
+    color:#f0932b;
+    text-align: center;
+}
+.input-box{
+    width:100%;
+    height:60px;
+    border-bottom: 2px solid #f0932b;
+    margin:30px 0;
+    position: relative;
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    color: #020202;
+}
+.input-box .icon,.input-box .btn,.input-box .btn2{
+    position: absolute;
+    right:8px;
+    top:20px;   
+}
+.input-box .btn{
+    display:none;
+}
+::placeholder{
+    color:#0f0e0f;
+}
+button{
+   width:100%;
+   height:40px;
+   border-radius: 30px;
+   font-size: 16px;
+   font-weight: bold;
+   border:none;
+   text-transform: capitalize;
+   box-shadow: 0 0 5px #7e726f;
+   background-color: #649799;
+   transition: .2s;
+}
+button:hover{
+    box-shadow: 0 0 10px #f3f72b;
+}
